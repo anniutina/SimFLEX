@@ -1,0 +1,44 @@
+{
+  "convergence_threshold": 0.001,
+  "logger_level": "CRITICAL",
+  "expected_prob": 0.3, 
+  "avg_speed": 6,
+  "transfertime": 30,
+  "speeds": {
+    "walk": 1.2,
+    "ride": 6
+  },
+  "ticket_price": 0.175,
+  "walk_factor": 2,
+  "wait_factor": 2,
+  "transfer_penalty": 500,
+  "shared_discount": 0.3,
+  "VoT": 0.003,
+  "WtS": 1,
+  "delay_value": 1,
+  "price": 1.5,
+  "matching_obj": "u_veh",
+  "pax_delay": 15,
+  "horizon": 1200,
+  "profitability": false,
+  "paths": {
+    "main": "ExMAS",
+    "data": "data",
+    "params": "data/configs",
+    "postcodes": "data/postcodes/PC4_Poland_2024.shp",
+    "G": "data/graphs/Krakow.graphml",
+    "skim": "data/graphs/Krakow.csv"
+  },
+  "nP": 2666,
+  "city": "Krakow, Poland",
+  "simTime": 0.5,
+  "dist_threshold": 100000,
+  "demand_structure": {
+    "origins_dispertion": -0.0003,
+    "destinations_dispertion": -0.001,
+    "temporal_dispertion": 0.3,
+    "temporal_distribution": "uniform"
+  },
+  "max_degree": 8,
+  "t0": "08:00"
+}
