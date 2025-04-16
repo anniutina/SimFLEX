@@ -11,9 +11,9 @@ The software was implemented using Python programming language and its basic lib
 * [ExMAS](https://github.com/RafalKucharskiPK/ExMAS/tree/master/ExMAS)
 * [Public Transport queries](https://github.com/RafalKucharskiPK/query_PT)
 ### The roadmap of the current project for the city:
-1) Generate a demand dataset as $Q = {O_i, D_i, T_i}$. Sampling is done according to the travel patterns of the study area (ODM). 
+1) Generate a demand dataset as $Q = (O_i, D_i, T_i)$. Sampling is done according to the travel patterns of the study area (ODM).
      
- ![OD](https://github.com/anniutina/SimFLEX/blob/main/src/functions.py) 
+ ![OD](https://github.com/OlhaShulikaUJ/SUM_project/blob/main/OD.png) 
 
 2) Calculate utilities of different transport modes:
    
